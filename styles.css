@@ -74,9 +74,13 @@ body {
     color: #e5e7eb;
 }
 
-.favs-title {
-    color: #1f2937;
+.favs {
     text-align: center;
+    color: #1f2937;
+    margin-bottom: 64px;
+}
+
+.favs-title {
     font-size: 36px;
     font-weight: 900;
     margin: 48px;
@@ -86,8 +90,26 @@ body {
     display: flex;
     justify-content: center;
     gap: 52px;
-    color: #1f2937;
 }
+
+.info-content {
+    max-width: 200px;
+}
+
+.info-content img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center top;
+    border: 4px solid #3882f6;
+    border-radius: 24px;
+}
+
+.info-content .text {
+    color: #1f2937;
+    font-size: 16px;
+}
+
 
 .contact-content {
    background-color: #3882f6;
