@@ -35,8 +35,6 @@ The page is composed of four main sections, in addition to the header (`header`)
 To view the project:
 
 Follow the link:
-```bash
-    [https://miguelma3.github.io/odin-landing/](https://miguelma3.github.io/odin-landing/)
-```
+> [Live Preview](https://miguelma3.github.io/odin-landing/)
 
 **Developed by:** MiguelMA3 | The Odin Project 2025
