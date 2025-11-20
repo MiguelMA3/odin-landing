@@ -29,7 +29,7 @@ body {
     gap: 16px;
 }
 
-.header-links a {
+a {
     text-decoration: none;
     color: #e5e7eb;
 }
@@ -110,7 +110,74 @@ body {
     font-size: 16px;
 }
 
+.wisdom {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wisdom-content {
+    margin: 98px;
+    padding-left: 92px;
+    padding-right: 92px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.wisdom-signature {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+    font-style: normal;
+    margin-top: 8px;
+}
 
 .contact-content {
-   background-color: #3882f6;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 36px;
+    margin: 98px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.contact-call {
+    text-align: left;
+    margin: 12px 0 12px 0;
+}
+
+.contact-main {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-helper {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.call-button {
+    border: solid #f9faf8;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 36px;
 }
